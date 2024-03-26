@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* 背景色，你可以根据需要更改 */
+            font-size: 18px; /* 基础字体大小，放大效果 */
+        }
+
+        form {
+            width: 300px; /* 表单宽度 */
+            padding: 20px; /* 表单内边距 */
+            background-color: #fff; /* 表单背景色 */
+            border-radius: 5px; /* 表单圆角 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 表单阴影效果 */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px; /* 标签与输入框之间的间距 */
+        }
+
+        input[name="user"]{
+            width: 100%; /* 输入框和提交按钮宽度占满表单 */
+        }
+        input[name="pwd"]{
+            width: 100%; /* 输入框和提交按钮宽度占满表单 */
+        }
+        input[type="submit"] {
+            width: 100%; /* 输入框和提交按钮宽度占满表单 */
+            box-sizing: border-box; /* 确保宽度包含内边距和边框 */
+            padding: 10px; /* 输入框和提交按钮内边距 */
+            font-size: 16px; /* 输入框和提交按钮字体大小 */
+            border-radius: 3px; /* 输入框和提交按钮圆角 */
+            border: 1px solid #ccc; /* 输入框和提交按钮边框 */
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50; /* 提交按钮背景色 */
+            color: white; /* 提交按钮文字颜色 */
+            cursor: pointer; /* 鼠标悬停时变为小手 */
+        }
+    </style>
+</head>
+<body>
+<form action="/polls/index/" method="post">
+    {% csrf_token %}
+    <p><label>用户名：</label><input name="user"/></p>
+    <p><label>密码：</label><input name="pwd"/></p>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
