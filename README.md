@@ -6,8 +6,8 @@
 
 ## 2.启动django服务器
 
-```
 在终端中执行
+```
 python mydemo\manage.py runserver
 ```
 
@@ -19,7 +19,7 @@ python mydemo\manage.py runserver
 </p>
 ```
 账号：0201123313
-密码：123456
+密码：12346
 ```
 
 ## 4.自动跳转到TTS界面
