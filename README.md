@@ -18,15 +18,15 @@ python mydemo\manage.py runserver
 密码：123456
 ```
 
-![image-20240326113652521](C:\Users\Aa\AppData\Roaming\Typora\typora-user-images\image-20240326113652521.png)
+![image-20240326113652521](.\pictures\image-20240326113652521.png)
 
 ## 4.自动跳转到TTS界面
 
 自行输入要合成语音的语句，系统将自动打开合成成功的文件夹，每条英文语句（按回车分割）都将合成一个wav保存的语音，同时您输入的语句可在“您的输入历史.txt”文件中查看到
 
-![image-20240326113716941](C:\Users\Aa\AppData\Roaming\Typora\typora-user-images\image-20240326113716941.png)
+![image-20240326113716941](.\pictures\image-20240326113716941.png)
 
-![image-20240326113750868](C:\Users\Aa\AppData\Roaming\Typora\typora-user-images\image-20240326113750868.png)
+![image-20240326113750868](.\pictures\image-20240326113750868.png)
 
 ## 5.演示视频
 
