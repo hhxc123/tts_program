@@ -13,20 +13,26 @@ python mydemo\manage.py runserver
 
 ## 3.输入账号密码
 
+
+<p align="center">
+	<img src="pictures/index.png" width="%70">
+</p>
 ```
 账号：0201123313
 密码：123456
 ```
 
-![image-20240326113652521](.\pictures\image-20240326113652521.png)
-
 ## 4.自动跳转到TTS界面
 
 自行输入要合成语音的语句，系统将自动打开合成成功的文件夹，每条英文语句（按回车分割）都将合成一个wav保存的语音，同时您输入的语句可在“您的输入历史.txt”文件中查看到
 
-![image-20240326113716941](.\pictures\image-20240326113716941.png)
+<p align="center">
+	<img src="pictures/show.png" width="%70">
+</p>
 
-![image-20240326113750868](.\pictures\image-20240326113750868.png)
+<p align="center">
+	<img src="pictures/docs.png" width="%70">
+</p>
 
 ## 5.演示视频
 
