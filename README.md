@@ -17,9 +17,16 @@ python mydemo\manage.py runserver
 <p align="center">
 	<img src="pictures/index.png" width="%70">
 </p>
+账号：
+
 ```
-账号：0201123313
-密码：12346
+0201123313
+```
+
+密码：
+
+```
+123456
 ```
 
 ## 4.自动跳转到TTS界面
