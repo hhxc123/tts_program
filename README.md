@@ -31,15 +31,16 @@ python mydemo\manage.py runserver
 
 ## 4.自动跳转到TTS界面
 
-自行输入要合成语音的语句，系统将自动打开合成成功的文件夹，每条英文语句（按回车分割）都将合成一个wav保存的语音，同时您输入的语句可在“您的输入历史.txt”文件中查看到
+自行输入要合成语音的语句和该语句的上下文信息，系统将自动打开合成成功的文件夹，该条英文语句将合成一个wav保存的语音，同时您输入的上下文信息语句可在“您的输入历史.txt”文件中查看到
 
 <p align="center">
-	<img src="pictures/show.png" width="%70">
+	<img src="pictures/myshow.png" width="%70">
 </p>
 
 <p align="center">
-	<img src="pictures/docs.png" width="%70">
+	<img src="pictures/mydocs.png" width="%70">
 </p>
+
 
 ## 5.演示视频
 
